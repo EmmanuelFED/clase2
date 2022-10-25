@@ -1,12 +1,19 @@
 *{
     list-style: none;
+    font-style: italic;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1{
-    color: blue;
+    color: black;
 }
 
 #section-images{
     display: flex;
     justify-content: center;
+    border: 2px ridge black;
+}
+
+body{
+    background: linear-gradient(to right, white, purple);
 }
