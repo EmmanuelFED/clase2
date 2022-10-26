@@ -2,6 +2,7 @@
     list-style: none;
     font-style: italic;
     font-family: 'Ubuntu', sans-serif;
+    
 }
 
 h1{
@@ -11,6 +12,10 @@ h1{
 #section-images{
     display: flex;
     justify-content: center;
+    border: 2px ridge black;
+}
+
+#section-images img{
     border: 2px ridge black;
 }
 
