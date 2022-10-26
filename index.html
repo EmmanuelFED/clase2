@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcun icon" href="/fotosKiosco/beer.jpg">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/28e7294a67.js" crossorigin="anonymous"></script>
 
     <title>Página Oficial J.E.C.Y</title>
 </head>
@@ -18,8 +19,11 @@
     <header>
         <h1>Kiosco J.E.C.Y</h1>
         <h2>Trelew-Chubut (Argentina)</h2>
-        <nav>
-            <ul>
+            <nav>
+            <ul class="index-ul">
+                <div>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
                 <li>
                     <a href="index.html">Inicio</a>
                 </li>
@@ -27,27 +31,29 @@
                     <a href="/views/aboutus.html">Sobre nosotros</a>
                 </li>
                 <li>
-                    <a href="productos.html">Productos</a>
+                    <a href="/views/productos.html">Productos</a>
                 </li>
                 <li>
-                    <a href="visitas.html">Visitas importantes</a>
+                    <a href="/views/visitas.html">Visitas importantes</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contacto</a>
+                    <a href="/views/contact.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <div id="section-images">
+        <section id="section-images">
+            <div >
                 <img
                  src="fotosKiosco/fachada.jpg"
                  alt=""
-                 width="500px"
+                 width="450px"
                  />
             </div>
-
+            <div >
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FJECY.TW%2Fvideos%2F696698040756422%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            </div>
         </section>
     </main>
     <hr />
@@ -57,6 +63,12 @@
         </h1>
         <div id="section-images">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.5035533106748!2d-65.33980558485334!3d-43.26182537260498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbe014569c392e61b%3A0x69e8d20ee9b318!2sKiosco%20JECY!5e0!3m2!1ses!2sar!4v1666635249668!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div>
+            <h5>
+            Desarrollado por Emmanuel Altamirano Colemil.
+            </h5>
         </div>
     </footer>
 </body>

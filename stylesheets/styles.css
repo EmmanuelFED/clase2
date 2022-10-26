@@ -2,7 +2,7 @@
     list-style: none;
     font-style: italic;
     font-family: 'Ubuntu', sans-serif;
-    
+    color: black;
 }
 
 h1{
@@ -11,12 +11,18 @@ h1{
 
 #section-images{
     display: flex;
-    justify-content: center;
-    border: 2px ridge black;
+    justify-content: space-evenly;
+    ;
 }
 
 #section-images img{
     border: 2px ridge black;
+}
+
+.index-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
 }
 
 body{
