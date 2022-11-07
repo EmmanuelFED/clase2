@@ -2,6 +2,7 @@
     list-style: none;
     font-style: italic;
     font-family: 'Ubuntu', sans-serif;
+    font-size: small;
  
 }
 
@@ -12,7 +13,7 @@ h1{
 #section-images{
     display: flex;
     justify-content: space-evenly;
-    ;
+
 }
 
 #section-images img{
@@ -22,6 +23,11 @@ h1{
 .index-ul{
     display: flex;
     flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.carousel-inner{
+    display: flex;
     justify-content:space-evenly;
 }
 
